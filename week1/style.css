@@ -1,0 +1,134 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 24px;
+}
+body
+{
+    background: #E1E1E1;
+}
+
+.headerBar
+{
+    display: flex;
+    justify-content: center;
+    background: #4A90E2;
+}
+.selection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width:220px;
+    font-family: "Roboto-Medium";
+    color:#00408B;
+    cursor: pointer;
+}
+.selected
+{
+    color:#ffffff;
+    border-bottom: solid 4px #00408B;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    margin: 0 auto;
+}
+.searchBar
+{
+    margin: 2.3% 0;
+    padding-left: 4%;
+    height: 65px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid #C8C8C8;
+    border-radius: 5px;
+    font-family: "Roboto-Regular";
+    font-size: 24px;
+    color: #C8C8C8;
+}
+.taskBlock
+{
+    height: 102px;
+    width: 100%;
+    margin-bottom:1.8%;
+    padding :3% 0 1.7% 0;
+    background: #F2F2F2;
+}
+.taskBlock.taskBlockStar
+{
+    background: #FFF2DC;
+}
+.taskBlock-top
+{    
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+}
+.taskcheckBox
+{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px; 
+    cursor: pointer;
+}
+.taskName
+{
+    font-family: "Roboto-Medium";
+    height: 28px;
+    width: 248px;
+    margin-right: 35%;
+}
+.taskStar
+{
+    margin-right: 10px;
+    color:#F5A623 ;
+}
+.taskPencil
+{
+
+}
+.taskBlock-bottom
+{
+    margin-top: 8px;
+    padding-left: 12.5%;
+}
+.taskBlock-bottom span , .taskBlock-bottom i
+{
+    color:#757575;
+    font-size: 16px;
+}
+
+.taskDay
+{
+    margin-right: 1.5%; 
+}
+.taskDayIcon
+{
+
+}
+.taskDayDetail
+{
+
+}
+.taskAttachmentIcon
+{
+    margin-right: 1.5%;
+}
+.taskCommentIcon
+{
+    margin-right: 1.5%;
+}
+.tasksLeftBlock
+{
+    align-self: flex-start;
+    font-family: Roboto-Italic;
+    font-size: 24px;
+    color: #C8C8C8;
+    text-align: center;
+}

@@ -6,11 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script type="text/javascript" src="script.js"></script>
 	<title>the-F2E 前端精神時光屋 Week1 </title>
 </head>
-<body>
+<body onload='init()'>
 	<div class="headerBar">
-		<div class="selection selected">My Tasks</div><div class="selection">In Progress</div><div class="selection">Completed</div>
+		<div class="selection selected" id='firstSelected' onclick='selectHanderItem(this)' >My Tasks</div>
+		<div class="selection" onclick='selectHanderItem(this)'>In Progress</div>
+		<div class="selection" onclick='selectHanderItem(this)'>Completed</div>
 	</div>
 	<div class="container">
 			
@@ -20,7 +23,7 @@
 			<div class="taskBlock-top">
 				<input class="taskcheckBox" type="checkbox"/>
 				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar"><i class="icon-star"></i></span>
+				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star"></i></span>
 				<span class="taskPencil"><i class="icon-pencil"></i></span>
 			</div>
 			<div class="taskBlock-bottom">
@@ -37,7 +40,7 @@
 			<div class="taskBlock-top">
 				<input class="taskcheckBox" type="checkbox"/>
 				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar"><i class="icon-star"></i></span>
+				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star"></i></span>
 				<span class="taskPencil"><i class="icon-pencil"></i></span>
 			</div>
 			<div class="taskBlock-bottom">
@@ -54,7 +57,7 @@
 			<div class="taskBlock-top">
 				<input class="taskcheckBox" type="checkbox"/>
 				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar"><i class="icon-star-empty"></i></span>
+				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star-empty"></i></span>
 				<span class="taskPencil"><i class="icon-pencil"></i></span>
 			</div>
 			<div class="taskBlock-bottom">
@@ -71,7 +74,7 @@
 			<div class="taskBlock-top">
 				<input class="taskcheckBox" type="checkbox"/>
 				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar"><i class="icon-star-empty"></i></span>
+				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star-empty"></i></span>
 				<span class="taskPencil"><i class="icon-pencil"></i></span>
 			</div>
 			<div class="taskBlock-bottom">
@@ -88,7 +91,7 @@
 			<div class="taskBlock-top">
 				<input class="taskcheckBox" type="checkbox"/>
 				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar"><i class="icon-star-empty"></i></span>
+				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star-empty"></i></span>
 				<span class="taskPencil"><i class="icon-pencil"></i></span>
 			</div>
 			<div class="taskBlock-bottom">

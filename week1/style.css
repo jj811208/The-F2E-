@@ -26,6 +26,7 @@ body
     font-family: "Roboto-Medium";
     color:#00408B;
     cursor: pointer;
+    transition: all 0.3s;
 }
 .selected
 {
@@ -88,6 +89,7 @@ body
 {
     margin-right: 10px;
     color:#F5A623 ;
+    cursor: pointer;
 }
 .taskPencil
 {

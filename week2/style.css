@@ -30,6 +30,7 @@ body
     padding:5px;
     background: rgba(255,255,255,0);
     border: none;
+    outline: none;
     border-bottom: solid #ffffff 1px;
     font-family: Roboto-Italic;
     font-size: 20px;

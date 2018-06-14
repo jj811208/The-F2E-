@@ -4,106 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
-	<title>the-F2E 前端精神時光屋 Week1 </title>
+	<title>the-F2E 前端精神時光屋 Week2 </title>
 </head>
 <body onload='init()'>
 	<div class="headerBar">
-		<div class="selection selected" id='firstSelected' onclick='selectHanderItem(this)' >My Tasks</div>
-		<div class="selection" onclick='selectHanderItem(this)'>In Progress</div>
-		<div class="selection" onclick='selectHanderItem(this)'>Completed</div>
+		<img class='headerBar-Logo' src='./logo.svg'/>
+		<input type='text' class='headerBar-searchBar' placeholder="Explore your own activities"/>
 	</div>
 	<div class="container">
-			
-		<input class="searchBar" type='text' placeholder="Add Task"/>
 		
-		<div class="taskBlock taskBlockStar">
-			<div class="taskBlock-top">
-				<input class="taskcheckBox" type="checkbox"/>
-				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star"></i></span>
-				<span class="taskPencil"><i class="icon-pencil"></i></span>
-			</div>
-			<div class="taskBlock-bottom">
-				<span class="taskDay">
-					<span class="taskDayIcon"><i class="icon-calendar"></i></span>
-					<span class="taskDayDetail">5/14</span>
-				</span>
-				<span class="taskAttachmentIcon"><i class="icon-file-alt"></i></span>
-				<span class="taskCommentIcon"><i class="icon-comment-alt"></i></span>
-			</div>
+		<div class="container-leftMenu">
+		left
 		</div>
-		
-		<div class="taskBlock taskBlockStar">
-			<div class="taskBlock-top">
-				<input class="taskcheckBox" type="checkbox"/>
-				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star"></i></span>
-				<span class="taskPencil"><i class="icon-pencil"></i></span>
-			</div>
-			<div class="taskBlock-bottom">
-				<span class="taskDay">
-					<span class="taskDayIcon"><i class="icon-calendar"></i></span>
-					<span class="taskDayDetail">5/14</span>
-				</span>
-				<span class="taskAttachmentIcon"><i class="icon-file-alt"></i></span>
-				<span class="taskCommentIcon"><i class="icon-comment-alt"></i></span>
-			</div>
+		<div class="container-rightBlock">
+		right
 		</div>
-		
-		<div class="taskBlock">
-			<div class="taskBlock-top">
-				<input class="taskcheckBox" type="checkbox"/>
-				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star-empty"></i></span>
-				<span class="taskPencil"><i class="icon-pencil"></i></span>
-			</div>
-			<div class="taskBlock-bottom">
-				<span class="taskDay">
-					<span class="taskDayIcon"><i class="icon-calendar"></i></span>
-					<span class="taskDayDetail">5/14</span>
-				</span>
-				<span class="taskAttachmentIcon"><i class="icon-file-alt"></i></span>
-				<span class="taskCommentIcon"><i class="icon-comment-alt"></i></span>
-			</div>
-		</div>
-		
-		<div class="taskBlock">
-			<div class="taskBlock-top">
-				<input class="taskcheckBox" type="checkbox"/>
-				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star-empty"></i></span>
-				<span class="taskPencil"><i class="icon-pencil"></i></span>
-			</div>
-			<div class="taskBlock-bottom">
-				<span class="taskDay">
-					<span class="taskDayIcon"><i class="icon-calendar"></i></span>
-					<span class="taskDayDetail">5/14</span>
-				</span>
-				<span class="taskAttachmentIcon"><i class="icon-file-alt"></i></span>
-				<span class="taskCommentIcon"><i class="icon-comment-alt"></i></span>
-			</div>
-		</div>
-		
-		<div class="taskBlock">
-			<div class="taskBlock-top">
-				<input class="taskcheckBox" type="checkbox"/>
-				<span class="taskName">Type Something Here…</span>
-				<span class="taskStar" onclick="selectStarItem(this)"><i class="icon-star-empty"></i></span>
-				<span class="taskPencil"><i class="icon-pencil"></i></span>
-			</div>
-			<div class="taskBlock-bottom">
-				<span class="taskDay">
-					<span class="taskDayIcon"><i class="icon-calendar"></i></span>
-					<span class="taskDayDetail">5/14</span>
-				</span>
-				<span class="taskAttachmentIcon"><i class="icon-file-alt"></i></span>
-				<span class="taskCommentIcon"><i class="icon-comment-alt"></i></span>
-			</div>
-		</div>
-		<span class='tasksLeftBlock'>4 tasks left</span>
 	</div>
 </body>
 </html>

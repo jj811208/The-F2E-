@@ -7,130 +7,50 @@
 }
 body
 {
-    background: #E1E1E1;
+    background: #F2F2F2;
 }
 
 .headerBar
 {
     display: flex;
-    justify-content: center;
-    background: #4A90E2;
-}
-.selection
-{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height:50px;
-    width:220px;
-    font-family: "Roboto-Medium";
-    color:#00408B;
-    cursor: pointer;
-    transition: all 0.3s;
+    background: #7828B4;
+    height:92px
 }
-.selected
+
+.headerBar-Logo
 {
-    color:#ffffff;
-    border-bottom: solid 4px #00408B;
+    margin-left: 78px;
+}
+
+.headerBar-searchBar
+{
+    width: 388px;
+    margin-left: 17%;
+    padding:5px;
+    background: rgba(255,255,255,0);
+    border: none;
+    border-bottom: solid #ffffff 1px;
+    font-family: Roboto-Italic;
+    font-size: 20px;
+    color: rgba(255,255,255,0.50);
 }
 .container
 {
     display: flex;
-    flex-direction: column;
-    width: 620px;
-    margin: 0 auto;
-}
-.searchBar
-{
-    margin: 2.3% 0;
-    padding-left: 4%;
-    height: 65px;
-    width: 100%;
-    background: #FFFFFF;
-    border: 2px solid #C8C8C8;
-    border-radius: 5px;
-    font-family: "Roboto-Regular";
-    font-size: 24px;
-    color: #C8C8C8;
-}
-.taskBlock
-{
-    height: 102px;
-    width: 100%;
-    margin-bottom:1.8%;
-    padding :3% 0 1.7% 0;
-    background: #F2F2F2;
-}
-.taskBlock.taskBlockStar
-{
-    background: #FFF2DC;
-}
-.taskBlock-top
-{    
-    display: flex;
-    align-items: center;
-    padding-left: 7%;
-}
-.taskcheckBox
-{
-    height: 24px;
-    width: 24px;
-    margin-right: 10px; 
-    cursor: pointer;
-}
-.taskName
-{
-    font-family: "Roboto-Medium";
-    height: 28px;
-    width: 248px;
-    margin-right: 35%;
-}
-.taskStar
-{
-    margin-right: 10px;
-    color:#F5A623 ;
-    cursor: pointer;
-}
-.taskPencil
-{
-
-}
-.taskBlock-bottom
-{
-    margin-top: 8px;
-    padding-left: 12.5%;
-}
-.taskBlock-bottom span , .taskBlock-bottom i
-{
-    color:#757575;
-    font-size: 16px;
+    padding: 0 3.2%
 }
 
-.taskDay
+.container-leftMenu
 {
-    margin-right: 1.5%; 
+    width: 25%;
+    height: 1000px;
+    background: #ebebeb;
+    border-left: solid;
 }
-.taskDayIcon
+.container-rightBlock
 {
-
-}
-.taskDayDetail
-{
-
-}
-.taskAttachmentIcon
-{
-    margin-right: 1.5%;
-}
-.taskCommentIcon
-{
-    margin-right: 1.5%;
-}
-.tasksLeftBlock
-{
-    align-self: flex-start;
-    font-family: Roboto-Italic;
-    font-size: 24px;
-    color: #C8C8C8;
-    text-align: center;
+    width: 75%;
+    height: 1000px;
+    border-right: solid;
 }

@@ -56,9 +56,46 @@ body
 .container-leftMenu-block
 {
     width: 100%;
-    height: 100px;
+	padding: 24px 40px;
     background: #ebebeb;
     border-bottom: solid 1px #D7D7D7; 
+}
+.container-leftMenu-block-title
+{
+	margin-bottom:24px;
+}
+.container-leftMenu-block-DateLabel
+{
+	display: inline-block;
+	margin-right:10px;
+	text-align:right;
+	width:34px;
+	height:40px;
+	font-size: 16px;
+}
+.container-leftMenu-block input
+{
+	width:calc(100% - 50px);
+}
+.container-leftMenu-block select
+{
+	width:100%;
+}
+.container-leftMenu-block input ,.container-leftMenu-block select
+{
+	height:40px;
+	font-size: 16px;
+}
+.container-leftMenu-block input[type="checkbox"]
+{
+	width:16px;
+	height:16px;
+}
+.container-leftMenu-block ul li
+{
+	line-height:27px;
+	list-style-type:none;
+	font-size: 16px;
 }
 .container-rightBlock
 {
@@ -78,4 +115,93 @@ body
     font-weight: 600;
     color: #9013FE;
     line-height: 28px;
+}
+.container-rightBlock-searchResult-labelBlock
+{
+	display: flex;
+}
+.container-rightBlock-searchResult-labelBlock-label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin:8px;
+	padding: 8px 16px;
+    font-size: 16px;
+	color:#9013FE;
+	border:solid #9013FE 1px;
+	border-radius:100px;
+}
+.container-rightBlock-info
+{
+    width: 100%;
+    display: flex;
+	margin:24px 0;
+}
+.container-rightBlock-info i
+{
+	margin-right:7px;
+}
+.container-rightBlock-info-img
+{
+    width: 15%;
+}
+.container-rightBlock-info-img img
+{
+    max-width:100%;
+	
+}
+.container-rightBlock-info-content
+{
+	display:flex;
+	flex-direction: column;
+    width: 85%;
+	padding:24px 20px;
+	background: #FFFFFF;
+}
+.container-rightBlock-info-content-title
+{
+	margin-bottom:16px;
+	font-size: 24px;
+	color: #9013FE;
+	line-height: 36px;
+}
+.container-rightBlock-info-content-content
+{
+	margin-bottom:16px;
+	font-size: 16px;
+	color: #000000;
+	line-height: 24px;
+}
+.container-rightBlock-info-content-infoDetail
+{
+	display:flex;
+}
+.container-rightBlock-info-content-infoDetail:nth-of-type(2n-1)
+{
+	margin-bottom:16px;
+}
+.container-rightBlock-info-content-infoDetail-author
+{
+	font-size: 16px;
+	color: #000000;
+}
+.container-rightBlock-info-content-infoDetail-category
+{
+	font-size: 16px;
+	color: #FFFFFF;
+	padding:3px 16px;
+	background: #D7D7D7;
+	border-radius: 100px;
+}
+.container-rightBlock-info-content-infoDetail-city
+{
+	font-size: 16px;
+	color: #9B9B9B;
+	margin-right:20px;
+}
+.container-rightBlock-info-content-infoDetail-date
+{
+	font-size: 16px;
+	color: #9B9B9B;
 }

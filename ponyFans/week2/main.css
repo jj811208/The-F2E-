@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  height:100%;
+}
+/* nav */
+.main_nav{
+  float:left;
+  width:250px;
+  min-width:25%;
+  height:100%;
+  background:#859889;
+  border-right:5px #868686 solid;
+}
+.main_nav .navLogo{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-size:24px;
+  color:white;
+}
+.main_nav .searchBar{
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  min-width: 200px;
+  height:35px;
+  background:white;
+}
+.main_nav .searchInput{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: calc(100% - 22px);
+  height:100%;
+  text-decoration: underline;
+  border: none;
+}
+.main_nav .recommend{
+  margin-top:50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.main_nav .recommend p{
+  position: relative;
+  text-align: justify;
+  word-break: break-all;
+  font-size:16px;
+}
+.main_nav .recommend p.content{
+  overflow: hidden;
+  margin: 0;
+}
+
+.main_nav .recommend a{
+  display:inline-block;
+  position: relative;
+  padding-right: 10px;
+  cursor: pointer;
+  line-height: 38px;
+  font-size:  18px;
+  color:#0b3152;
+}
+.main_nav .recommend a::before{
+  position: absolute;
+  content:'';
+  height: 27px;
+  width:500px;
+  left: 0;
+  border-bottom: 1px black solid;
+}
+/* end nav */
+.main_body{
+  float:left;
+  position: relative;
+  width:calc(100% - 250px);
+  max-width:75%;
+  height:100%;
+  background:#f1f0ed;
+}
+.main_body .bgwords{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  text-align: center;
+  font-size:8vmin;
+  color:#ccc;
+}
+
+.main_body .bgwords::after{
+  content:'';
+  display:inline-block;
+  width:0;
+  height:100%;
+  vertical-align: middle;
+  letter-spacing: 8px;
+}
+.main_body.empty .bgwords::before{
+  content:'Find it youself!';
+}

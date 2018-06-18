@@ -1,0 +1,1 @@
+window.addEventListener('load',(e)=>{document.getElementById('searchInput').focus();});

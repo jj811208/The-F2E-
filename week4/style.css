@@ -1,0 +1,280 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html
+{
+	background: #FFFFFF;
+}
+
+.grid-container
+{
+	display: grid;
+	grid-template-rows: repeat(20, 5%) ;
+	grid-template-columns: repeat(8, 12.5%);
+	margin:33px auto; 
+	height: 2000px;
+	width: 960px;
+}
+
+.flex-center
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.header
+{
+	grid-column: 3/span 4;
+}
+
+.smallBlackBlock
+{
+	width: 131px;
+	font-family: Roboto-Black;
+	font-size: 20px;
+	background: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.headerText
+{
+	font-family: Roboto-Black;
+	font-size: 72px;
+	color: #000000;
+	text-align: center;
+}
+.img1
+{
+	background: url(asset/1.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 1/span 4;
+	grid-row: 3/span 4;
+}
+.img2
+{
+	background: url(asset/2.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 6/span 2;
+	grid-row: 4/span 2;
+}
+.img3
+{
+	background: url(asset/3.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 1/span 4;
+	grid-row: 9/span 2;
+}
+.img4
+{
+	background: url(asset/4.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 7/span 2;
+	grid-row: 9/span 4;
+}
+.img5
+{
+	background: url(asset/5.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 3/span 2;
+	grid-row: 13/span 2;
+}
+.img6
+{
+	background: url(asset/6.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 5/span 4;
+	grid-row: 15/span 4;
+}
+.img7
+{
+	background: url(asset/7.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	grid-column: 1/span 2;
+	grid-row: 17/span 4;
+}
+
+.solid-block1-position
+{
+	grid-column: 6/span 3;
+	grid-row: 3/span 3;
+}
+.green-solid-block1
+{
+	background: #50E3C2;
+	height: 200px;
+	width: 240px;
+	z-index: -1;
+}
+
+.solid-block2-position
+{
+	grid-column: 1/span 2;
+	grid-row: 8/span 3;
+}
+.green-solid-block2
+{
+	background: #50E3C2;
+	height: 200px;
+	width: 240px;
+	z-index: -1;
+}
+
+.solid-block3-position
+{
+	grid-column: 4/span 3;
+	grid-row: 17/span 2;
+}
+.green-solid-block3
+{
+	background: #50E3C2;
+	height: 200px;
+	width: 240px;
+	z-index: -1;
+}
+
+.solid-block4-position
+{
+	grid-column: 3/span 1;
+	grid-row: 19/span 2;
+}
+.green-solid-block4
+{
+	background: #50E3C2;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.frame-block1-position
+{
+	grid-column: 3/span 3;
+	grid-row: 2/span 3;
+}
+.green-frame-block1
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 200px;
+	width: 240px;
+	z-index: -2;
+}
+.frame-block2-position
+{
+	grid-column: 7/span 2;
+	grid-row: 3/span 2;
+}
+.green-frame-block2
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 200px;
+	width: 240px;
+	z-index: -2;
+}
+.frame-block3-position
+{
+	grid-column: 3/span 3;
+	grid-row: 9/span 3;
+}
+.green-frame-block3
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 200px;
+	width: 240px;
+	z-index: -2;
+}
+.frame-block4-position
+{
+	grid-column: 6/span 3;
+	grid-row: 8/span 2;
+}
+.green-frame-block4
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 200px;
+	width: 240px;
+	z-index: -2;
+}
+.frame-block5-position
+{
+	grid-column: 2/span 2;
+	grid-row: 14/span 2;
+}
+.green-frame-block5
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 100px;
+	width: 240px;
+	z-index: -2;
+}
+.frame-block6-position
+{
+	grid-column: 1/span 3;
+	grid-row: 16/span 5;
+}
+.green-frame-block6
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 400px;
+	width: 240px;
+	z-index: -2;
+}
+.frame-block7-position
+{
+	grid-column: 5/span 4;
+	grid-row: 17/span 3;
+}
+.green-frame-block7
+{
+	border: 20px solid #50e3c2;
+	background: #ffffff;
+	height: 200px;
+	width: 480px;
+	z-index: -2;
+}
+
+.stripe-block1-position
+{
+	grid-column: 1/span 3;
+	grid-row: 6/span 2;
+}
+.green-stripe-block1
+{
+	background: repeating-linear-gradient(50deg, #50e3c2, #50e3c2 17px, transparent 0, transparent 35px);
+	height: 100px;
+	width: 240px;
+}
+.stripe-block2-position
+{
+	grid-column: 1/span 3;
+	grid-row: 12/span 2;
+}
+.green-stripe-block2
+{
+	background: repeating-linear-gradient(50deg, #50e3c2, #50e3c2 17px, transparent 0, transparent 35px);
+	height: 100px;
+	width: 240px;
+}
+.stripe-block3-position
+{
+	grid-column: 7/span 2;
+	grid-row: 12/span 2;
+}
+.green-stripe-block3
+{
+	background: repeating-linear-gradient(50deg, #50e3c2, #50e3c2 17px, transparent 0, transparent 35px);
+	height: 100px;
+	width: 240px;
+}

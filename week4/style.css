@@ -37,7 +37,6 @@ html
 .smallBlackBlock
 {
 	width: 131px;
-	font-family: Roboto-Black;
 	font-size: 20px;
 	background: #000000;
 	color: #FFFFFF;
@@ -46,7 +45,6 @@ html
 
 .headerText
 {
-	font-family: Roboto-Black;
 	font-size: 72px;
 	color: #000000;
 	text-align: center;
@@ -281,7 +279,6 @@ html
 
 .number
 {
-	font-family: Roboto-Black;
 	font-size: 48px;
 	color: #000000;
 	line-height: 48px;
@@ -295,6 +292,8 @@ html
 {
 	grid-column: 8/span 1;
 	grid-row: 3/span 1;
+	display: flex;
+    justify-content: flex-end;
 }
 .number3-position
 {
@@ -304,27 +303,37 @@ html
 .number4-position
 {
 	grid-column: 6/span 1;
-	grid-row: 12/span 1;
+	grid-row: 12/span 1;    
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .number5-position
 {
 	grid-column: 2/span 1;
-	grid-row: 14/span 1;
+	grid-row: 14/span 1;    
+	display: flex;
+    align-items: flex-end;
 }
 .number6-position
 {
 	grid-column: 4/span 1;
 	grid-row: 16/span 1;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .number7-position
 {
 	grid-column: 3/span 1;
 	grid-row: 20/span 1;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .Afterimage 
 {
-	font-family: Roboto-Black;
 	font-size: 48px;
 	color: #000000;
 	line-height: 48px;
@@ -333,41 +342,58 @@ html
 {
 	grid-column: 1/span 3;
 	grid-row: 2/span 2;
+	display: flex;
+	align-items: center;
 }
 .imgTitle2-position
 {
 	grid-column: 7/span 2;
-	grid-row: 6/span 2;
+	grid-row: 6/span 1;
+	display: flex;
+	align-items: center;
 }
 .imgTitle3-position
 {
 	grid-column: 2/span 3;
 	grid-row: 8/span 1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 .imgTitle4-position
 {
 	grid-column: 6/span 1;
 	grid-row: 9/span 2;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
 }
 .imgTitle5-position
 {
 	grid-column: 1/span 3;
 	grid-row: 13/span 1;
+	display: flex;
+    align-items: flex-end;
 }
 .imgTitle6-position
 {
 	grid-column: 6/span 3;
 	grid-row: 14/span 1;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .imgTitle7-position
 {
 	grid-column: 3/span 1;
 	grid-row: 17/span 2;
+	writing-mode: vertical-lr;
 }
 
 .productName
 {
-	font-family: Roboto-BoldItalic;
 	font-size: 24px;
 	color: #000000;
 } 
@@ -375,21 +401,31 @@ html
 {
 	grid-column: 5/span 1;
 	grid-row: 6/span 2;
+	writing-mode: vertical-lr;
 }
 .productName2-position
 {
 	grid-column: 5/span 2;
 	grid-row: 3/span 1;
+	display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .productName3-position
 {
 	grid-column: 1/span 2;
 	grid-row: 11/span 1;
+	display: flex;
+    justify-content: flex-end;
 }
 .productName4-position
 {
 	grid-column: 8/span 1;
 	grid-row: 7/span 2;
+	writing-mode: vertical-lr;
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .productName5-position
 {
@@ -400,9 +436,13 @@ html
 {
 	grid-column: 6/span 2;
 	grid-row: 19/span 1;
+	display: flex;
+    justify-content: center;
 }
 .productName7-position
 {
 	grid-column: 1/span 2;
 	grid-row: 16/span 1;
+	display: flex;
+    align-items: flex-end;
 }

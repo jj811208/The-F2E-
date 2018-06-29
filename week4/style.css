@@ -337,6 +337,43 @@ html
 	font-size: 48px;
 	color: #000000;
 	line-height: 48px;
+	position: relative;
+}
+.Afterimage::before 
+{
+	color:rgba(0,0,0,0.3);
+	content:attr(afterimage);
+	position: absolute;
+}
+.Afterimage::after
+{
+	color:rgba(0,0,0,0.1);
+	content:attr(afterimage);
+	position: absolute;
+}
+.level::before 
+{
+	margin-top:-16px;
+}
+.level::after
+{
+	margin-top:-32px;
+}
+.vertical::before 
+{
+	margin-left:16px;
+}
+.vertical::after
+{
+	margin-left:32px;
+}
+.verticalR::before 
+{
+	margin-right:-16px;
+}
+.verticalR::after
+{
+	margin-right:-32px;
 }
 .imgTitle1-position
 {
@@ -389,6 +426,7 @@ html
 {
 	grid-column: 3/span 1;
 	grid-row: 17/span 2;
+	display: flex;
 	writing-mode: vertical-lr;
 }
 

@@ -1,0 +1,167 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.3s;
+}
+
+html
+{
+	background: #F2F2F2;
+}
+
+.header-container
+{
+	background: #000000;
+}
+.header-container-title
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 74px;
+	width: 620px;
+	margin: auto;
+	font-size: 36px;
+	font-style:italic;	
+	color: #50FF44;
+	font-weight: 600;
+}
+.content-container
+{
+	width: 620px;
+	margin: auto;
+	padding-top: 28px;
+}
+
+#content-container-top
+{
+	display: flex;
+}
+
+#content-container-photo
+{
+	height: 446px;
+	width: 300px;
+	padding: 4px;
+	border: solid;
+}
+#comic_info
+{
+
+}
+#comic_info_title
+{
+	height: 52px;
+	width: 317px;
+	font-size: 36px;
+	color: #FFFFFF;
+	line-height: 36px;
+	padding: 8px 21px 8px 24px;
+	background: #000000;
+	font-weight: 600;
+}
+#comic_info_detail
+{
+	padding: 16px 0 0 20px;
+}
+#comic_info_detail *
+{
+	font-size: 16px;
+	color: #000000;
+	line-height: 24px;;
+}
+.detail_block
+{
+	padding-bottom: 8px;
+}
+.detail_block_last
+{
+	padding-bottom: 24px;
+}
+.detail_block > div:nth-of-type(1)
+{
+	float:left;
+	width: 72px;
+	font-weight: 600;
+}
+.detail_block > div:nth-of-type(2)
+{
+	float:left;
+}
+.detail_block > div:nth-of-type(3)
+{
+	clear:both;
+}
+#summary
+{
+
+}
+#summary > div:nth-of-type(1)
+{
+	padding-bottom: 8px;
+	font-weight: 600;
+}
+#content-container-bottom
+{
+	padding-top: 24px;
+}
+#comic_chapter_title
+{
+	width: 181px;
+	padding: 8px 24px;
+	background: #000000;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+#comic_chapter_detail
+{
+	list-style:none;
+	background: #FFFFFF;
+	border: 4px solid #000000;
+	padding: 11px 0;
+}
+#comic_chapter_detail > li
+{
+	font-size: 16px;
+	color: #000000;
+	line-height: 42px;
+	padding-left: 24px;
+	font-weight: 600;
+	height: 42px;
+	cursor: pointer;
+}
+#comic_chapter_detail > li:hover
+{
+	color: #ffffff;
+	background: #000000
+}
+#comic_chapter_detail > li:last-of-type
+{
+	padding-bottom: unset;
+}
+#comic_chapter_detail > li:last-of-type::after
+{
+	content: "new";
+	background: #50FF44;
+	font-size: 14px;
+	line-height: 14px;
+	color: #000000;
+	margin-left: 16px;
+	padding:2px 12px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+

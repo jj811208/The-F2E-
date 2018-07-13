@@ -1,0 +1,146 @@
+*
+{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	transition: all 0.3s;
+}
+
+html
+{
+	background: #fff;
+}
+
+#container
+{
+	border-top: 8px solid #0275D8;
+	width: 456px;
+	margin: auto;
+}
+
+#container>*
+{
+	width: 100%;
+	text-align: center;
+}
+
+#progressBar
+{
+	padding: 61px 70px 48px 70px;
+}
+
+#progressBar_line
+{
+	border-top:solid 2px #BEE1FF;
+	position: relative;
+}
+
+#progressBar_line>div
+{
+	position: absolute;
+	top:-8px;
+}
+#progressBar_position1
+{
+	left: 0;
+}
+
+#progressBar_position2
+{
+	left: 33.3%;
+}
+
+#progressBar_position3
+{
+	left: 66.6%;
+}
+
+#progressBar_position4
+{
+	left: calc(100% - 16px);
+}
+
+.progressBar_circle
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	border: 2px solid #BEE1FF;
+}
+
+.progressBar_circle2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	border: 2px solid #0275D8;
+}
+
+.progressBar_circleok
+{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #0275D8;
+	border: 2px solid #0275D8;
+}
+
+h2
+{
+	font-size: 48px;
+	color: #000000;
+	font-weight: 100;
+}
+
+h3
+{
+	font-size: 24px;
+	color: #000000;
+	font-weight: 100;
+}
+
+#container .register_block_name
+{
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 0;
+	text-align: left;
+	padding-top: 24px; 
+	padding-bottom: 8px; 
+}
+
+#container .register_block_input
+{
+	height: 52px;
+	border: 2px solid #000000;
+	border-radius: 8px;
+	font-size: 20px;
+	color: #999999;
+	letter-spacing: 0;
+	text-align: left;
+	line-height: 24px;
+	padding-left: 20px;
+}
+
+.register_block_submit
+{
+	height: 52px;
+	margin-top: 40px; 
+	background: #0275D8;
+	border: 2px solid #4A90E2;
+	border-radius: 8px;
+	font-size: 20px;
+	color: #FFFFFF;
+	line-height: 25px;
+	cursor: pointer;
+}

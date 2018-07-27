@@ -18,6 +18,7 @@ html body
   flex-direction: column;
   border: solid;
   background: #1469FF;
+  overflow: hidden;
 }
 
 .sixcon
@@ -25,6 +26,8 @@ html body
   position: absolute;
   top: 155px;
   z-index: 4;
+  animation: sixconframe 6.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s forwards;
+  transform-origin: 50% 60%;
 }
 .sixcon_top
 {
@@ -49,6 +52,7 @@ html body
   border-radius: 50%;
   background: #0027C8;
   z-index: 3;
+  animation: circleframe 6.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s forwards ;
 }
 
 .rect
@@ -58,6 +62,7 @@ html body
   height: 360px;
   background: #000;
   z-index: 2;
+  animation: rectframe 6.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s forwards;
 }
 
 .text
@@ -75,4 +80,32 @@ html body
   color: #FFFFFF;
   line-height: 22px;
   z-index: 5;
+}
+
+
+@keyframes sixconframe
+{
+0%   {transform:scale(1) rotate(0deg) ; }
+85% {transform:scale(1) rotate(360deg);}
+96% {transform:scale(1);}
+100% {transform:scale(5);}
+}
+
+@keyframes rectframe
+{
+0%   {transform:scale(1) rotate(360deg); }
+45%  {}
+85%  {transform:scale(1) rotate(0deg);}
+90%  {transform:scale(1);}
+100% {transform:scale(5);}
+}
+
+@keyframes circleframe
+{
+  0%   {transform:scale(1);}
+  20%  {transform:scale(1.1);}
+  45%  {transform:scale(0.9);}
+  85%  {transform:scale(1);}
+  93%  {transform:scale(1);}
+  100% {transform:scale(5);}
 }

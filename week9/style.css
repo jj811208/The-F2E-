@@ -1,0 +1,90 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 16px;
+}
+html
+{
+  background: linear-gradient(to right, #19003c 24%,#000000 51%,#19003c 80%,#19003c 80%);
+}
+h1
+{
+  font-family: Roboto;
+  font-size: 48px;
+  color: Black;
+  font-style: Italic ;
+}
+h2
+{
+  font-family: Roboto;
+  font-size: 36px;
+}
+h3
+{
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: Bold ;
+}
+
+#container
+{
+  width: 1024px;
+  padding: 40px 50px;
+	margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_title
+{
+  color: #FF0093;
+  padding-bottom: 24px;
+}
+
+.title_subtitle
+{
+  background: #8000FF;
+  padding: 4px 16px;
+  color: #250060;
+  width: 148px;
+  height: 27px;
+}
+
+.title_nowlevel
+{
+  color:#8000FF;
+  text-decoration: underline;
+  width: 200px;
+  padding-top: 8px;
+}
+
+.title_nowlevel> h2
+{
+  color:#FFFFFF;
+}
+
+.title_nowlevelimg
+{
+  padding-top: 24px;
+  padding-bottom: 15px;
+  width: 300px;
+}
+
+.title_talk
+{
+  width: 300px;
+  height: 185px;
+  line-height: 24px;
+  padding: 40px 33px;
+  color: #FFFFFF;
+  border: solid #FF0093 2px;
+}
+
+.title_talk__impotant
+{
+  color:#D10079;
+}

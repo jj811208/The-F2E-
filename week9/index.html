@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,72 +10,312 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900i" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
-<body>
+
+<body onload='initThePage()'>
   <div id='container'>
-    <div>
+    <div class='second_block'>
       <h1 class='title_title'>FRONT-END SKILL TREE</h1>
       <div class='title_subtitle'>CURRENT RANK</div>
-      <div class='title_nowlevel'><h2>FRONT-END NOOB</h2></div>
+      <div class='title_nowlevel'>
+        <h2>FRONT-END NOOB</h2>
+      </div>
       <img class='title_nowlevelimg' src='asset/img-ship-noob.png' />
       <div class='title_talk'>
-        Welcome aboard. Your mission is: <span class='title_talk__impotant'>Collect the resources and learn the skills to upgrade the ship.</span> Good luck, captain!
+        Welcome aboard. Your mission is:
+        <span class='title_talk__impotant'>Collect the resources and learn the skills to upgrade the ship.</span> Good luck, captain!
       </div>
     </div>
-    <div>
-      <div>
-        <div>
-
+    <div class='second_block'>
+      <div class='skill_block'>
+        <div class='skill_basics_img'>
+          <img src='./asset/img-planet-basics.png' />
         </div>
-        <div>
-          <div>
-            <i class="material-icons">category</i>
-          </div>
-          <div>
+        <div class='skill_block_right'>
 
+          <div class='skill_category'>
+            <div class='skill_item_icon__clicked'>
+              <i class="material-icons">category</i>
+            </div>
+            <div class='skill_item_detail'>
+              <div>
+                <i class="material-icons">settings</i>
+                <span>0/3</span>
+              </div>
+              <div>
+                <i class="material-icons">filter_tilt_shift</i>
+                <span>0/0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class='skill_category'>
+            <div class='skill_item_icon'>
+              <i class="material-icons">build</i>
+            </div>
+            <div class='skill_item_detail'>
+              <div>
+                <i class="material-icons">settings</i>
+                <span>0/4</span>
+              </div>
+              <div>
+                <i class="material-icons">filter_tilt_shift</i>
+                <span>0/0</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div>
+
+      <div class='skill_block'>
+          <div class='skill_basics_img'>
+            <img src='./asset/img-planet-css.png' />
+          </div>
+          <div class='skill_block_right'>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">flip_to_front</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/1</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/3</span>
+                </div>
+              </div>
+            </div>
+
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">view_quilt</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/2</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/2</span>
+                </div>
+              </div>
+            </div>
+
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">developer_board</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/1</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/2</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">devices</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/2</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/0</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">widgets</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/0</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/3</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
       </div>
-      <div>
+      <div class='skill_block'>
+          <div class='skill_basics_img'>
+            <img src='./asset/img-planet-js.png' />
+          </div>
+          <div class='skill_block_right'>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">hdr_strong</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/0</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/1</span>
+                </div>
+              </div>
+            </div>
+
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                  <i class="material-icons">gradient</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/0</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/3</span>
+                </div>
+              </div>
+            </div>
+
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">format_quote</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/1</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/0</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">developer_mode</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/3</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/0</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">nfc</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/0</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/3</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
       </div>
-      <div>
+      <div class='skill_block'>
+          <div class='skill_basics_img'>
+            <img src='./asset/img-planet-managers.png' />
+          </div>
+          <div class='skill_block_right'>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">device_hub</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/2</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/1</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">import_contacts</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/2</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/1</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class='skill_category'>
+              <div class='skill_item_icon'>
+                <i class="material-icons">table_chart</i>
+              </div>
+              <div class='skill_item_detail'>
+                <div>
+                  <i class="material-icons">settings</i>
+                  <span>0/1</span>
+                </div>
+                <div>
+                  <i class="material-icons">filter_tilt_shift</i>
+                  <span>0/1</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
       </div>
     </div>
-    
-    <div>
-      <div>
+
+    <div class='second_block' style='border: solid 2px #FF0093; padding: 0;'>
+      <div class='detail_top'>
         <i class="material-icons">category</i>
         <div>BASIC SKILLS</div>
       </div>
-      <div>
+      <div class='detail_bottom'>
         <i class="material-icons">settings</i>
         <div>RECOMMENDED</div>
-        <div>Learn HTML</div>
-        <div>Basics of CSS</div>
-        <div>Basics of JavaScript</div>
+        <div class='detail_button'>Learn HTML</div>
+        <div class='detail_button'>Basics of CSS</div>
+        <div class='detail_button'>Basics of JavaScript</div>
       </div>
     </div>
-    <i class="material-icons">category</i>
-    <i class="material-icons">developer_mode</i>
-    <i class="material-icons">developer_board</i>
-    <i class="material-icons">hdr_strong</i>
-    <i class="material-icons">flip_to_front</i>
-    <i class="material-icons">import_contacts</i>
-    <i class="material-icons">gradient</i>
-    <i class="material-icons">nfc</i>
-    <i class="material-icons">devices</i>
-    <i class="material-icons">build</i>
-    <i class="material-icons">view_quilt</i>
-    <i class="material-icons">table_chart</i>
-    <i class="material-icons">format_quote</i>
-    <i class="material-icons">device_hub</i>
-    <i class="material-icons">widgets</i>
-    <i class="material-icons">settings</i>
-    <i class="material-icons">filter_tilt_shift</i>
-    </div>
+  </div>
+  
+  <script src='./js.js'></script>
 </body>
+
 </html>

@@ -1,5 +1,14 @@
 # The-F2E
 前端修煉精神屋 作品紀錄
+https://jj811208.github.io/The-F2E-practice/week1/
+https://jj811208.github.io/The-F2E-practice/week2/
+https://jj811208.github.io/The-F2E-practice/week3/
+https://jj811208.github.io/The-F2E-practice/week4/
+https://jj811208.github.io/The-F2E-practice/week5/
+https://jj811208.github.io/The-F2E-practice/week6/
+https://jj811208.github.io/The-F2E-practice/week7/
+https://jj811208.github.io/The-F2E-practice/week8/
+https://jj811208.github.io/The-F2E-practice/week9/
 
 活動介紹
 

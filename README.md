@@ -1,4 +1,9 @@
 # The-F2E
+
+完賽證明
+
+https://www.thef2e.com/Certificate/-LDy0zACUZXbYA8Bu7jg?fbclid=IwAR1YCtS6qYUF6FeO8xWmKRegrPNV5RC7J95JO0jKLlUxm3Fs6fLnMFi3C80
+
 前端修煉精神屋 作品紀錄
 
 https://jj811208.github.io/The-F2E-practice/week1/
